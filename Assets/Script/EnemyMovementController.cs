@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMovementController : MonoBehaviour
 {
     [Tooltip("speed of the enemy")]
-    [SerializeField] private float _Speed = 0.01f;
+    [SerializeField] private float _Speed = 10;
 
     private Vector3 _startPosition;
     // Start is called before the first frame update
@@ -22,6 +22,7 @@ public class EnemyMovementController : MonoBehaviour
 
     private void XMovement(float speed)
     {
+        speed = speed * Time.deltaTime;
         transform.position += new Vector3(speed, 0, 0);
     }
 
