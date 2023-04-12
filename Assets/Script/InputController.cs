@@ -19,7 +19,7 @@ public class InputController : MonoBehaviour
     // Start is called before the first frame update ef
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
