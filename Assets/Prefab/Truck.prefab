@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1450818869}
   - component: {fileID: 1450818870}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Truck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &2307977042590040674
 Rigidbody2D:
@@ -98,10 +98,7 @@ MonoBehaviour:
   _Speed: 10
   _StartLine: 1
   _EnemySpriteList:
-  - {fileID: 21300000, guid: 61dbd6167e857c540804352e1ada3ea4, type: 3}
-  - {fileID: 21300000, guid: 3542818080c482f47a8dff275bde82f1, type: 3}
-  - {fileID: 21300000, guid: 80110ff53cd228449bbc18908ee64a12, type: 3}
-  - {fileID: 21300000, guid: 8c994aeb6aaa32340a22258a8037a402, type: 3}
+  - {fileID: 21300000, guid: 1761188b491a0bb4a901c6d3bfa1ab09, type: 3}
 --- !u!114 &1450818870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,7 +185,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 61dbd6167e857c540804352e1ada3ea4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1761188b491a0bb4a901c6d3bfa1ab09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

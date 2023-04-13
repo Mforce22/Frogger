@@ -14,12 +14,16 @@ public class CollisionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hahahahahahaahahah sei morto");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //Debug.Log("hahahahahahaahahah sei morto");
+        if (!collision.CompareTag("Home"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
     }
 }
