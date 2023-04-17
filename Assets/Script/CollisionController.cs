@@ -45,7 +45,7 @@ public class CollisionController : MonoBehaviour
             }
             else
             {
-                transform.SetParent(null);
+
                 GetComponent<InputController>().Restart();
             }
         }

@@ -22,7 +22,7 @@ public class Home : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             GetComponent<SpriteRenderer>().enabled = true;
-            Debug.Log("Player has entered the home");
+            // Debug.Log("Player has entered the home");
         }
     }
 

@@ -132,6 +132,8 @@ public class InputController : MonoBehaviour
 
     public void Restart()
     {
+        transform.SetParent(null);
+        //Debug.Log("Restart");
         transform.position = _restartPosition;
     }
 }
