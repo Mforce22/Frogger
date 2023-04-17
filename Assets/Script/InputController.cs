@@ -26,6 +26,9 @@ public class InputController : MonoBehaviour
     void Start()
     {
         _restartPosition = transform.position;
+
+        //set game aspect ratio , should be 14:16
+        Screen.SetResolution(1080, 945, true);
     }
 
     // Update is called once per frame

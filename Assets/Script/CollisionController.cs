@@ -9,7 +9,7 @@ public class CollisionController : MonoBehaviour
 
     [SerializeField] private GameObject _EndScreen;
 
-    [SerializeField] private Sprite deadFrog;
+    [SerializeField] private Sprite _DeadFrog;
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +63,7 @@ public class CollisionController : MonoBehaviour
     public void Defeat()
     {
         GetComponent<BoxCollider2D>().enabled = false;
-        GetComponent<SpriteRenderer>().sprite = deadFrog;
+        GetComponent<SpriteRenderer>().sprite = _DeadFrog;
         Debug.Log("You have lost the game");
         _EndScreen.GetComponent<TheEnd>().EndGame(1);
         GetComponent<InputController>().EndGame();
