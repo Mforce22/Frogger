@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Home : MonoBehaviour
 {
+    [SerializeField] private int _Index;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +24,10 @@ public class Home : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = true;
             Debug.Log("Player has entered the home");
         }
+    }
+
+    public int getIndex()
+    {
+        return _Index;
     }
 }

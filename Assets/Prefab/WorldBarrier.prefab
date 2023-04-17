@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 648799177343465440}
   m_Layer: 0
   m_Name: WorldBarrier
-  m_TagString: Untagged
+  m_TagString: WorldBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
