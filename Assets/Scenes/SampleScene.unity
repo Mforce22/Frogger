@@ -3613,29 +3613,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2876554115367400421, guid: e06a00dd98e66504a8f85336c9165498, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2876554115367400440, guid: e06a00dd98e66504a8f85336c9165498, type: 3}
-      propertyPath: deadFrog
-      value: 
-      objectReference: {fileID: 21300000, guid: c49321d21009d014d92431d617ca6b22, type: 3}
     - target: {fileID: 2876554115367400440, guid: e06a00dd98e66504a8f85336c9165498, type: 3}
       propertyPath: _EndScreen
       value: 
       objectReference: {fileID: 1943974288}
-    - target: {fileID: 2876554115367400441, guid: e06a00dd98e66504a8f85336c9165498, type: 3}
-      propertyPath: _PlayerDelay
-      value: 0.15
-      objectReference: {fileID: 0}
     - target: {fileID: 2876554115367400442, guid: e06a00dd98e66504a8f85336c9165498, type: 3}
       propertyPath: m_Name
       value: Frogger
-      objectReference: {fileID: 0}
-    - target: {fileID: 2876554115367400442, guid: e06a00dd98e66504a8f85336c9165498, type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e06a00dd98e66504a8f85336c9165498, type: 3}

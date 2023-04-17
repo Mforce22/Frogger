@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2876554115367400419}
   m_Layer: 0
   m_Name: Frogger
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a6628584875e11b4ab968b4bf09f6283, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6113d286d81993c46b0d927b00a2295c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _EndScreen: {fileID: 0}
+  _DeadFrog: {fileID: 21300000, guid: c49321d21009d014d92431d617ca6b22, type: 3}
 --- !u!114 &2876554115367400441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Speed: 0.7
-  _PlayerDelay: 0.3
+  _PlayerDelay: 0.15
   _MoveController: {fileID: 2876554115367400419}
 --- !u!114 &2876554115367400419
 MonoBehaviour:
