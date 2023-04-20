@@ -832,6 +832,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8757357108763348179, guid: 31495616de638c54b9d47613701c5546, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31495616de638c54b9d47613701c5546, type: 3}
 --- !u!4 &697185788 stripped
@@ -907,6 +911,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8757357108763348179, guid: 31495616de638c54b9d47613701c5546, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31495616de638c54b9d47613701c5546, type: 3}
 --- !u!1001 &721951499
@@ -969,6 +977,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8640308920503833667, guid: 31495616de638c54b9d47613701c5546, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757357108763348179, guid: 31495616de638c54b9d47613701c5546, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -1448,6 +1460,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8757357108763348179, guid: 31495616de638c54b9d47613701c5546, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757357108763348179, guid: 31495616de638c54b9d47613701c5546, type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3858,6 +3874,10 @@ PrefabInstance:
       value: Home
       objectReference: {fileID: 0}
     - target: {fileID: 8640308920503833667, guid: 31495616de638c54b9d47613701c5546, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757357108763348179, guid: 31495616de638c54b9d47613701c5546, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}

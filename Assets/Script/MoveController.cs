@@ -37,7 +37,7 @@ public class MoveController : MonoBehaviour
         transform.position += new Vector3(speed, 0, 0);
         if (speed > 0)
         {
-            transform.rotation = Quaternion.Euler(0, 0, 90);
+            transform.rotation = Quaternion.Euler(0, 0, -90);
         }
         else
         {
